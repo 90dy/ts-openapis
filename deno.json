@@ -1,0 +1,23 @@
+{
+  "tasks": {},
+  "compilerOptions": {
+    "jsx": "react",
+    "strictNullChecks": true,
+    "strictFunctionTypes": true
+  
+  },
+  "unstable": [
+    "sloppy-imports"
+  ],
+  "lint": {},
+  "imports": {
+    "@hey-api/client-fetch": "npm:@hey-api/client-fetch@^0.10.0",
+    "@hey-api/openapi-ts": "npm:@hey-api/openapi-ts@^0.66.1"
+  },
+  "workspace": {
+    "members": [
+      "apis/*"
+    ]
+  },
+	"license": "MIT"
+}
