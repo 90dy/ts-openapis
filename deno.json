@@ -12,7 +12,9 @@
   "lint": {},
   "imports": {
     "@hey-api/client-fetch": "npm:@hey-api/client-fetch@^0.10.0",
-    "@hey-api/openapi-ts": "npm:@hey-api/openapi-ts@^0.66.1"
+    "@hey-api/openapi-ts": "npm:@hey-api/openapi-ts@^0.66.1",
+    "@std/path": "jsr:@std/path@^1.1.2",
+    "@types/node": "npm:@types/node@^24.3.0"
   },
   "workspace": {
     "members": [

@@ -1,0 +1,7 @@
+
+{
+	"name": "@openapis/qonto",
+	"version": "1.0.0",
+	"exports": "./mod.ts",
+	"license": "MIT"
+}

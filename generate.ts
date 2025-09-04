@@ -2,7 +2,7 @@
 
 import "npm:dotenv/config";
 import fs from "node:fs/promises";
-import * as path from "jsr:@std/path";
+import * as path from "@std/path";
 
 const rootDir = path.dirname(path.fromFileUrl(import.meta.url));
 
